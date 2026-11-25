@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>L&L Global - Where Privilege Becomes Purpose</title>
+    <meta
+      name="description"
+      content="L&L Global is driven by a passion to support Australian communities, help people stay in their family homes through financial crisis, and create lasting impact."
+    />
+    <meta name="theme-color" content="#171717" />
+    <link
+      rel="icon"
+      href="assets/ll-global-monogram-on-light.svg"
+      type="image/svg+xml"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="header">
+      <a class="brand" href="#/" aria-label="L&L Global home"
+        ><img
+          src="assets/ll-global-monogram-on-light.svg"
+          alt=""
+          width="49"
+          height="49"
+        /><span>L&L<span class="global">GLOBAL</span></span></a
+      >
+      <button
+        class="menu-toggle"
+        aria-expanded="false"
+        aria-controls="navigation"
+      >
+        Menu <span aria-hidden="true">☰</span>
+      </button>
+      <nav id="navigation" aria-label="Main navigation">
+        <a href="#/why">Our why</a><a href="#/projects">Our projects</a
+        ><a href="#/approach">Our approach</a><a href="#/contact">Contact us</a
+        ><a class="nav-donate" href="#/donate">Make a donation</a>
+      </nav>
+    </header>
+    <main id="main" tabindex="-1"></main>
+    <footer>
+      <div class="footer-top">
+        <a class="footer-brand" href="#/">L&L GLOBAL</a>
+        <p>Where Privilege Becomes Purpose.</p>
+        <a class="text-link light" href="#/contact">Start a conversation</a>
+      </div>
+      <div class="footer-links">
+        <div>
+          <a href="#/why">Our why</a><a href="#/projects">Our projects</a
+          ><a href="#/approach">Our approach</a
+          ><a href="#/donate">Make a donation</a
+          ><a href="#/contact">Contact us</a>
+        </div>
+        <span>Australia · Community · Lasting impact</span>
+      </div>
+      <div class="footer-social">
+        <span class="tiny-label">Connect with Olivia</span>
+        <div class="social-links" aria-label="Olivia Long’s social pages">
+          <a
+            href="mailto:LL.global@proton.me"
+            target="_blank"
+            rel="noopener noreferrer"
+            >LL.global@proton.me<span class="visually-hidden">
+              (opens in a new tab)</span
+            ></a
+          >
+          <a
+            href="https://www.youtube.com/@Livlongtalkinsuper"
+            target="_blank"
+            rel="noopener noreferrer"
+            >YouTube<span class="visually-hidden">
+              (opens in a new tab)</span
+            ></a
+          ><a
+            href="https://www.instagram.com/livlongtalkinsuper/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Instagram<span class="visually-hidden">
+              (opens in a new tab)</span
+            ></a
+          ><a
+            href="https://www.linkedin.com/in/olivia-long-91353a3/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >LinkedIn<span class="visually-hidden">
+              (opens in a new tab)</span
+            ></a
+          ><span class="social-pending">Facebook · Coming soon</span>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> L&L Global</span
+        ><a href="#/privacy">Privacy Policy</a>
+      </div>
+    </footer>
+    <dialog id="project-dialog" aria-labelledby="dialog-title">
+      <button class="dialog-close" aria-label="Close project details">×</button>
+      <div id="dialog-body"></div>
+    </dialog>
+    <div class="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
